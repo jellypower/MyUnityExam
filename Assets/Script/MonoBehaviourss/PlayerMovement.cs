@@ -57,10 +57,7 @@ public class PlayerMovement : MonoBehaviour
             rb2D.velocity = new Vector2(rb2D.velocity.x, 3);
             Debug.Log("Jump!!");
         }
-        else if (Input.GetButton("Fire1"))
-        {
-            transform.position = new Vector2(transform.position.x+3.0f*playerDir,transform.position.y);
-        }
+        
     }
 
     void animate()

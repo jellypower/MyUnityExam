@@ -6,8 +6,9 @@ public class Enemy : Character
 {
     float healthPoints;
 
+
     public int damageStrength;
-    Coroutine damageCoroutine;
+    public Coroutine damageCoroutine;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1675121128508620352}
   - component: {fileID: 1675121128508620358}
   - component: {fileID: 677011171925254783}
+  - component: {fileID: 2827574912625837733}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -184,3 +185,19 @@ MonoBehaviour:
     type: 3}
   inventoryPrefab: {fileID: 587719816555913823, guid: a17f015b409c7c345ac10656df994328,
     type: 3}
+--- !u!114 &2827574912625837733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675121128508620412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c402cc51823b0e4897e0fd1d6d493a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoPrefab: {fileID: 5589154337435624466, guid: 0befb859623112d4f89172399472c715,
+    type: 3}
+  poolSize: 7
+  weaponVelocity: 2
